@@ -29,25 +29,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artikel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Jadi Kontributor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Beriklan</a>
-            </li>
-          </ul>
-        </div>
+        @include('layouts.navbar')
       </div>
     </nav>
 
@@ -58,59 +40,6 @@
     <footer class="bg-light text-dark">
       <div class="container-fluid">
         <div class="px-3 py-5">
-          <div class="col-12">
-            <div class="pb-3 text-center">
-              <h4>Telusuri Semua Topik di PortalSoloRaya</h4>
-              <ul class="nav nav-foot pt-3 justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <hr>
           <div class="col-12">
             <div class="pt-4 text-center">
               <h4>Follow Us!</h4>
