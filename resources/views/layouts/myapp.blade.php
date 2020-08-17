@@ -42,22 +42,16 @@
         <div class="px-3 py-5">
           <div class="col-12">
             <div class="pt-4 text-center">
-              <h4>Follow Us!</h4>
+              <h4 class="font-weight-bold">Follow Us!</h4>
               <ul class="nav nav-soc justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fab fa-lg fa-instagram"></i>
-                  </a>
+                  <a class="nav-link" href="#">Facebook</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fab fa-lg fa-facebook"></i>
-                  </a>
+                  <a class="nav-link" href="#">Instagram</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fab fa-lg fa-youtube"></i>
-                  </a>
+                  <a class="nav-link" href="#">Twitter</a>
                 </li>
               </ul>
               <p>&#9400; 2020 PortalSoloRaya</p>

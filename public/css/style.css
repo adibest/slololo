@@ -1,37 +1,70 @@
 .navbar {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.1)
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
 }
 
-#navbar1 .navbar-nav .nav-item .nav-link, .nav-foot .nav-item .nav-link, .nav-soc .nav-item .nav-link {
+.btn-sunglow {
+  background-color: #FFD23F;
+}
+
+.btn-sunglow:hover {
+  font-weight: bold;
+}
+
+#navbar1 .navbar-nav .nav-item .nav-link,
+.nav-foot .nav-item .nav-link,
+.nav-soc .nav-item .nav-link,
+.nav-topwriter .nav-item .nav-link {
   color: #343a40;
 }
 
-#navbar1 .navbar-nav .active .nav-link, #navbar1 .navbar-nav .nav-item .nav-link:hover, .nav-foot .nav-item .nav-link:hover {
+#navbar1 .navbar-nav .active .nav-link,
+#navbar1 .navbar-nav .nav-item .nav-link:hover,
+.nav-foot .nav-item .nav-link:hover,
+.nav-soc .nav-item .nav-link:hover,
+.nav-topwriter .nav-item .nav-link:hover {
   text-decoration: underline;
   text-underline-position: alphabetic;
   text-decoration-style: solid;
 }
 
-.nav-soc .nav-item .nav-link:hover {
-  color: #000000;
+.spotlight-header {
+  margin: 20px 0px 40px 0px;
 }
 
-.spotlight-header, .latest-header, .topwriter-header {
-  margin: 30px 0;
+.latest-header,
+.topwriter-header {
+  margin: 50px 0;
 }
 
-.spotlight-spot {
+.spotlight-spot,
+.latest-spot,
+.topwriter-spot {
+  border-radius: 10px;
   padding: 30px 10px;
 }
 
-.latest-spot {
-  padding: 30px 10px
+.topwriter-spot {
+  text-align: center;
 }
 
 .latest-jump {
   margin: 50px 0;
+}
+
+.spotlight-header h1,
+.latest-header h1,
+.topwriter-header h1 {
+  font-weight: bold;
+}
+
+.spotlight-spot:hover,
+.latest-spot:hover,
+.topwriter-spot:hover {
+  background-color: #EE4266;
+  color: #ffffff;
 }
