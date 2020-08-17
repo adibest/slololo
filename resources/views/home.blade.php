@@ -7,5 +7,5 @@
   <hr/>
   @include('layouts.topwriter')
   <hr/>
-  @include('layouts.topic')
+  <topic-index></topic-index>
 @endsection
